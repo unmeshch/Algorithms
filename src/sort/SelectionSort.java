@@ -2,6 +2,7 @@ package sort;
 
 /**
  * Class holds logic for - Selection sorting algorithm
+ * @author Unmesh Chougule
  */
 public class SelectionSort {
 
@@ -12,11 +13,12 @@ public class SelectionSort {
 
         sort(arr);
 
-        System.out.print("Array After Sorting :");
+        System.out.print("Array After Selection Sorting :");
         printArr(arr);
     }
 
     /**
+     * TODO : Selection sort is not stable by nature, add new stable version of this by considering indexes of the element.
      * Sorts the given array using selection sort algorithm
      * @param arr given int array
      */
