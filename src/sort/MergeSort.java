@@ -69,21 +69,22 @@ public class MergeSort {
 
         //if first array still has any remaining array then add them to temp array
         while (counterLeft <= end1) {
-            tempArr[countToFillTempArray] = counterLeft;
+            tempArr[countToFillTempArray] = arr[counterLeft];
             counterLeft++;
             countToFillTempArray++;
         }
 
         //if second array still has any remaining array then add them to temp array
         while (counterRight <= end2) {
-            tempArr[countToFillTempArray] = counterRight;
+            tempArr[countToFillTempArray] = arr[counterRight];
             counterRight++;
             countToFillTempArray++;
         }
 
         //fill two merged arrays into main array
-        for (int i=0; i<tempArr.length; i++) {
-            arr[start1] = tempArr[i];
+        for (int element : tempArr) {
+            arr[start1] = element;
+            start1++;
         }
     }
 }
