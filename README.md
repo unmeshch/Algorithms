@@ -5,4 +5,6 @@ You can clone the code and try running the main methods in corresponding class t
 ### Sorting Algorithms
 1. Selection Sort
 
-2. Bublle Sort
+2. Bubble Sort
+
+3. Insertion Sort
