@@ -1,6 +1,6 @@
 package sort;
 
-import util.ArrayElementsPrinter;
+import util.ElementsPrinter;
 
 /**
  * Class holds logic for - Merge sorting algorithm (Stable by nature)
@@ -12,12 +12,12 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {64, 25, 12, 22, 11, 50};
         System.out.print("Array Before Sorting :");
-        ArrayElementsPrinter.print(arr);
+        ElementsPrinter.print(arr);
 
         sort(arr, 0, arr.length-1);
 
         System.out.print("Array After Merge Sorting :");
-        ArrayElementsPrinter.print(arr);
+        ElementsPrinter.print(arr);
     }
 
     /**

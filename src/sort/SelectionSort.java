@@ -1,6 +1,6 @@
 package sort;
 
-import util.ArrayElementsPrinter;
+import util.ElementsPrinter;
 
 /**
  * Class holds logic for - Selection sorting algorithm
@@ -11,12 +11,12 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {64, 25, 12, 22, 11};
         System.out.print("Array Before Sorting :");
-        ArrayElementsPrinter.print(arr);
+        ElementsPrinter.print(arr);
 
         sort(arr);
 
         System.out.print("Array After Selection Sorting :");
-        ArrayElementsPrinter.print(arr);
+        ElementsPrinter.print(arr);
     }
 
     /**

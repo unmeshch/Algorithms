@@ -1,6 +1,6 @@
 package sort;
 
-import util.ArrayElementsPrinter;
+import util.ElementsPrinter;
 
 /**
  * Class holds logic for - Insertion sorting algorithm (Stable by nature)
@@ -11,12 +11,12 @@ public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = {22, 12, 11, 100, 1000};
         System.out.print("Array Before Sorting :");
-        ArrayElementsPrinter.print(arr);
+        ElementsPrinter.print(arr);
 
         sort(arr);
 
         System.out.print("Array After Insertion Sorting :");
-        ArrayElementsPrinter.print(arr);
+        ElementsPrinter.print(arr);
     }
 
     /**
