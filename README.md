@@ -7,3 +7,8 @@ You can clone the code and try running the main methods in corresponding class t
 2. Bubble Sort
 3. Insertion Sort
 4. Merge Sort
+5. Quick Sort
+
+### Searching Algorithms
+1. Linear Search
+2. Binary Search
