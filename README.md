@@ -12,3 +12,4 @@ You can clone the code and try running the main methods in corresponding class t
 ### Searching Algorithms
 1. Linear Search
 2. Binary Search
+3. Jump Search
